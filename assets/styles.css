@@ -1,23 +1,23 @@
 .container{
     color: #fff;
-    width: 400px;
+    width: 30vw;
     height: 100vw;
     align-items: center;
     text-align: center;
     /* justify-content: flex-start; */
     /* display: flex; */
-    background-color: rgb(21, 53, 100);
+    background-color: rgb(45, 42, 92);
 }
 
 .inputs{
-    width: 400px;
+    width: 30vw;
     /* align-items: center; */
     /* display: flex; */
     text-align: center;
     flex-direction: column;
     /* justify-content: flex-start; */
     margin-bottom: 5vw;
-    
+    background-color: rgb(45, 42, 92);
 }
 
 * {
@@ -28,37 +28,54 @@
 }
 
 .start{
-    color: #fff;
+    color: white;
+    text-shadow: 2px 2px 5px black;
     padding-top: 50px;
     padding-bottom: 100px;
     font-size: 24px;
+    background-color: rgb(45, 42, 92);
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    letter-spacing: -2px;
+    font-weight: bold;
 }
 
 .button{
-    background-color: rgb(230, 237, 247);
+    color: white;
+    background-color: rgb(12, 8, 61);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
     border-width: 0ch;
     margin: 1vw;
+    border-radius: 3px/3px;
+    box-shadow: 1px 1px 3px black;
 }
 
 .header{
-    color: black;
+    color: rgb(45, 40, 119);
     /* margin-left: 450px */
     margin-top:100px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     font-style: bold;
+    border-radius: 10px/ 10px;
+    background-color: #f4f8fb;
+    /* background-color: #b1ecf5; */
+    width: 60vw;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .content{
     color:black;
     font-size: 12px;
-    margin-left: 450px;
+    margin-left: 35vw;
     margin-top:-100vw;
-    padding: 0vw;
-    width: 70vw;
+    height: 95vw;
+    /* padding: 0vw; */
+    width: 60vw;
+    /* background-color: rgb(244, 242, 248); */
     /* align-items: center; */
     /* display: flex;
     justify-content: flex-start; */
@@ -67,6 +84,22 @@
 .description_ticker{
     color: black;
     /* margin-left: 450px; */
-    font-style: italic;
+    /* font-style: italic; */
     text-align: justify;
+}
+
+.plotBorder{
+    /* margin-top:5vw; */
+    border-radius: 10px / 10px;
+    padding: 2vw;
+    background-color: #43bccd;
+    /* background-color: #ffffff; */
+}
+
+.plotBorder2{
+    /* margin-top:5vw; */
+    border-radius: 10px / 10px;
+    padding: 2vw;
+    /* background-color: #f4f8fb; */
+    background-color: #ffffff;
 }
